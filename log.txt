@@ -1,0 +1,101 @@
+Starting MTCDT test on both AP slots
+Login to DUT, passed. Read buffer: mtcdt:~$ sudo -s
+mtcdt:/home/mtadm# root
+bash: root: command not found
+mtcdt:/home/mtadm# 
+Loop #1
+Checking both AP ports 3.3vdc line unloaded. 
+AP1 passed with reading of 3.283
+AP2 passed with reading of 3.290
+Checking both AP ports 3.3vdc line loaded.
+AP1 passed with reading of 3.045
+AP2 passed with reading of 3.082
+Checking AP1 dout0 to din0 is Low, passed. 
+Checking AP2 dout0 to din0 is Low,  passed. 
+Checking AP1 dout0 to din0 is High, passed. 
+Checking AP2 dout0 to din0 is High, passed. 
+Check I2C eeprom product id for AP1 passed.
+Check I2C eeprom product id for AP2,  passed.
+Check LED2 line to din3 on AP1, passed.
+Check LED2 line to din3 on AP2, passed.
+Check USB drive present for AP1 passed.
+Check USB drive present for AP2 passed.
+Checking uart tx->rx loopback on AP1, passed.
+Checking uart tx->rx loopback on AP2, passed.
+Loop #2
+Checking both AP ports 3.3vdc line unloaded. 
+AP1 passed with reading of 3.283
+AP2 passed with reading of 3.290
+Checking both AP ports 3.3vdc line loaded.
+AP1 passed with reading of 3.043
+AP2 passed with reading of 3.082
+Checking AP1 dout0 to din0 is Low, passed. 
+Checking AP2 dout0 to din0 is Low,  passed. 
+Checking AP1 dout0 to din0 is High, passed. 
+Checking AP2 dout0 to din0 is High, passed. 
+Check I2C eeprom product id for AP1 passed.
+Check I2C eeprom product id for AP2,  passed.
+Check LED2 line to din3 on AP1, passed.
+Check LED2 line to din3 on AP2, passed.
+Check USB drive present for AP1 passed.
+Check USB drive present for AP2 passed.
+Checking uart tx->rx loopback on AP1, passed.
+Checking uart tx->rx loopback on AP2, passed.
+Loop #3
+Checking both AP ports 3.3vdc line unloaded. 
+AP1 passed with reading of 3.284
+AP2 passed with reading of 3.290
+Checking both AP ports 3.3vdc line loaded.
+AP1 passed with reading of 3.043
+AP2 passed with reading of 3.082
+Checking AP1 dout0 to din0 is Low, passed. 
+Checking AP2 dout0 to din0 is Low,  passed. 
+Checking AP1 dout0 to din0 is High, passed. 
+Checking AP2 dout0 to din0 is High, passed. 
+Check I2C eeprom product id for AP1 passed.
+Check I2C eeprom product id for AP2,  passed.
+Check LED2 line to din3 on AP1, passed.
+Check LED2 line to din3 on AP2, passed.
+Check USB drive present for AP1 passed.
+Check USB drive present for AP2 passed.
+Checking uart tx->rx loopback on AP1, passed.
+Checking uart tx->rx loopback on AP2, passed.
+Loop #4
+Checking both AP ports 3.3vdc line unloaded. 
+AP1 passed with reading of 3.283
+AP2 passed with reading of 3.290
+Checking both AP ports 3.3vdc line loaded.
+AP1 passed with reading of 3.043
+AP2 passed with reading of 3.082
+Checking AP1 dout0 to din0 is Low, passed. 
+Checking AP2 dout0 to din0 is Low,  passed. 
+Checking AP1 dout0 to din0 is High, passed. 
+Checking AP2 dout0 to din0 is High, passed. 
+Check I2C eeprom product id for AP1 passed.
+Check I2C eeprom product id for AP2,  passed.
+Check LED2 line to din3 on AP1, passed.
+Check LED2 line to din3 on AP2, passed.
+Check USB drive present for AP1 passed.
+Check USB drive present for AP2 passed.
+Checking uart tx->rx loopback on AP1, passed.
+Checking uart tx->rx loopback on AP2, passed.
+Loop #5
+Checking both AP ports 3.3vdc line unloaded. 
+AP1 passed with reading of 3.284
+AP2 passed with reading of 3.290
+Checking both AP ports 3.3vdc line loaded.
+AP1 passed with reading of 3.043
+AP2 passed with reading of 3.082
+Checking AP1 dout0 to din0 is Low, passed. 
+Checking AP2 dout0 to din0 is Low,  passed. 
+Checking AP1 dout0 to din0 is High, passed. 
+Checking AP2 dout0 to din0 is High, passed. 
+Check I2C eeprom product id for AP1 passed.
+Check I2C eeprom product id for AP2,  passed.
+Check LED2 line to din3 on AP1, passed.
+Check LED2 line to din3 on AP2, passed.
+Check USB drive present for AP1 passed.
+Check USB drive present for AP2 passed.
+Checking uart tx->rx loopback on AP1, passed.
+Checking uart tx->rx loopback on AP2, passed.
+End of test. Overall result is PASSED
